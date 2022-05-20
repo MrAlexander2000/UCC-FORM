@@ -1,0 +1,99 @@
+
+#Disclaimer {
+    color: red;
+    font-size: larger;
+    text-align: center;
+}
+ label , h1 , p  {
+     font-weight: bold;
+ }
+
+
+#note  {
+    opacity: 0.5;
+}
+
+
+
+#form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#study-i{
+   border: 2px solid black;
+    width: 50em;
+}
+
+.personal-d {
+   border: 2px solid black;
+    width: 50em;
+    
+    
+}
+
+.gender {
+    display: inline;
+}
+th {
+    font-weight: bold;
+}
+
+#programs , th , td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 804px;
+    text-align: center;
+
+}
+
+.row {
+    font-weight: bold;
+}
+#nt  {
+    width: 200px;
+}
+
+
+
+/* Contacts etc */
+.contacts {
+    border: 2px solid black;
+
+}
+
+.disability {
+    border: 2px solid black;
+
+}
+
+.additional {
+    border: 2px solid black;
+
+}
+
+.declaration {
+    width: 50em;
+  border: 2px solid black;
+   
+}
+
+#send {
+    font-size: 35px;
+}
+#send:hover {
+    background-color: black;
+    color:white;
+    
+}
+.tel-icon {
+    color:black;
+    text-decoration: none;
+}
+.gmail {
+    color: red;
+    text-decoration: none;
+
+
+}

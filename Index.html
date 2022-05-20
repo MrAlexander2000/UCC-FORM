@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Dev">
+    <meta name="Keywords" content="UCC, Application Form 2022">
+    <meta name="Description" content="This is an Application For UCC Applications for 2023">
+    <link rel="stylesheet" href="font-css/all.min.css">
+    <link rel="stylesheet" href="font-css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>UCC APPLICATION FORM</title>
+        <!--THIS IS NOT A REAL APPLICATION FORM THIS IS A WAY FOR ME TO TEST OUT FORMS IN HTML , THIS FORM SHALL NOT BE USED FOR ANY OTHER REASON OTHER THAN INSPECTING THE SOURCE CODE-->
+    <!--ALL RIGHTS RESERVED-->
+</head>
+<body>
+    <main>
+        <h1 id = "Disclaimer">DISCLAIMER - THIS IS NOT A REAL APPLICATION FORM <br> IT SHALL NOT BE USED FOR ANY OTHER REASON EXCEPT FOR VIEWING THE SOURCE CODE</h1>
+        <div align = "center">
+        <img src="Upstate-Community-College-Logo.png" id="logo alt="UCC LOGO">
+        </div>
+        <h1 align = "center">APPLICATION FORM 2023</h1>
+        <p align = "center" id = "note"><em>(Please note that this is not a registration form, the registration forms will be made available to successful applicants)</em> </p>
+        <div id = "form">
+        <form action="" method="post" autocomplete="on" >
+            
+            
+            <div id = "study-i">
+                
+                <label for="prefered_campus">Prefered Campus:</label>
+                <select name="prefered_campus" id="prefered_campus">
+                    <option value="Doornfortein Campus">Doornfortein Campus</option>
+                    <option value="Roodeport Campus">Roodeport Campus</option>
+                    <option value="Cape Town Campus">Cape Town Campus</option>
+                    <option value="North West Campus">North West Campus</option>
+                    <option value="Johannesburg Campus">Johannesburg Campus</option>
+                    <option value="Durban Campus">Durban Campus</option>
+                </select><br><br>
+                <label for="full-time">Full time :</label>
+                <input type="radio" name="Study-period" id="full-time">
+                <label for="part-time">Part Time:</label>
+                <input type="radio" name="Study-period" id="part-time">
+            </div><br>
+            <h4>Personal Details</h4>
+            <div class="personal-d">
+                <!--Block 1-->
+                <label for="Surname">Surname :</label>
+                <input type="text" name="Surname" id="Surname" placeholder="Example:Nkosi">
+                <label for="Initials">Initial :</label>
+                <input type="text" name="Initials" id="Initials" placeholder="Example:S.T" required>
+                <label for="Title">Title :</label>
+                <select name="Title" id="Title">
+                    <option value="Mr">Mr</option>
+                    <option value="Ms">Ms</option>
+                    <option value="Mrs">Mrs</option>
+                </select><br><br>
+
+                <!--Block 2-->
+                <label for="fname">Full Name(S) :</label>
+                <input type="text" fname = "fname" id="fname" placeholder="Example:Thando Alex" required><br><br>
+                <!--Block 3-->
+                <label for="ID">ID :</label>
+                <input type="number" name="ID" id="ID" placeholder="Example:051002xxxx082" required><br><br>
+                <label for="gender">Gender :</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br><br>
+
+                <!--block 4-->
+                <label for="ethic">Ethic Group :</label>
+                <select name="ethic" id="ethic">
+                <option value="African">African</option>
+                <option value="Indian">Indian</option>
+                <option value="Coloured">Coloured</option>
+                <option value="White">White</option>
+                <option value="Other">Other</option>
+                </select><br><br>
+                <label for="language">Language :</label>
+                <select name="language" id="language">
+                <option value="Isizulu">Isizulu </option>
+                <option value="English">English</option>
+                <option value="Afrikaans">Afrikaans</option>
+                <option value="Sesotho">Sesotho</option>
+                <option value="Isindebele">Isindebele</option>
+                <option value="Isixhosa">Isixhosa</option>
+                <option value="Isiswati">Isiswati</option>
+                <option value="Sepedi">Sepedi</option>
+                <option value="Tshivenda">Tshivenda</option>
+                <option value="XiTsonga">XiTsonga</option>
+                <option value="SeTswana">SeTswana</option>
+                <option value="Other">Other</option>
+                </select><br><br>
+
+                <label for="marital-s">Marital Status :</label>
+                <select name="marital-s" id="marital-s">
+                    <option value="single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Divorced">Divorced</option>
+                    <option value="Other">Other</option>
+                </select><br><br>
+                <label for="highest-g">Highest Qualification/Grade Passed :</label>
+                <input type="text" id="highest-g" name="highest-g" required ><br><br>
+                <label for="copy_of_achievement">Please Upload your Certificate/Report :</label>
+                <input type="file" name="copy_of_achievement" id="copy_of_achievement" accept=".pdf"><br><br>
+                <label for="RSA-Citizen">RSA Citizen</label>
+                <select name="RSA-Citizen" id="RSA-Citizen">
+                    <option value="YES">YES</option>
+                    <option value="NO">NO</option>
+                </select><br><br>
+                <label for="country-og">Country of Origin(ignore if SA Citizen) :</label>
+                <input type="text" id="country-og" name="country-og" placeholder="Example:Botswana"><br><br>
+                <label for="current-act">Current Activity :</label>
+                <select name="current-act" id="current-act">
+                    <option value="This TVET College">This TVET College</option>
+                    <option value="Other College">Other College</option>
+                    <option value="School">School</option>
+                    <option value="Working">Working</option>
+                    <option value="Unemployed">Unemployed</option>
+                </select><br><br>
+                <label for="Parent/Guardian">Parent/Guardian :</label>
+                <input type="text" id="Parent/Guardian" name="Parent/Guardian">
+                <label for="Relationship">Relationship :</label>
+                <input type="text" id="Relationship" name="Relationship" placeholder="Example:Mother" required><br><br>
+
+            </div><br>
+
+            <h3>Please Select The Programs You Are Applying For</h3>
+
+            <table id = "programs" >
+            <tr  >
+                <th id = "nt" colspan="3" > NATED </p> </th>
+                <th id="ncv" colspan="3"> National Certificate Vocational</p> </th>
+            </tr>
+
+            <tr >
+                <!--Nated-->
+                <td >
+                    Buiness Studies :N4 – N6<br>
+                    
+                </td>
+                <td >Utitility Studies : N1 – N6</td>
+                <td >Engineering Studies :N4 – N6</td>
+
+                <!--National Certificate-->
+                <td class=>Business Studies NC (V) Level 2 - 4</td>
+                <td class=>Utitility Studies NC (V) Level 2 - 4</td>
+                <td class=>Engineering Studies NC (V) Level 2 - 4</td>
+            </tr>
+
+            <tr>
+                <!--Nated-->
+                <td><label for="Busi-m">Business Management</label>
+                    <input type="checkbox" name="Business-Studies(N4-N6)" id="Busi-m" value="Business Management"></td>
+                <td> <label for="intro-cloth">Introductory Clothing Construction</label>
+                    <input type="checkbox" name="Utitility-Studies(N1-N6)" id="intro-cloth" value="Introductory Clothing Construction">
+                </td>
+                <td> <label for="water">Water and Waste Water Management</label>
+                <input type="checkbox" name="Engineering-Studies(N4-N6)" id="water" value="Water and Waste Water Management"></td>
+
+                <!--National Certificate-->
+                <td>
+                    <label for="manage">Management</label>
+                    <input type="checkbox" name="Business Studies-C(V)" id="manage" value="Management">
+                </td>
+                <td><label for="Education-dev">Education and Development</label>
+                    <input type="checkbox" name="Utitility Studies-NC(V)" id="Education-dev" value="Education and Development">
+                </td>
+                <td><label for="Civil-Eng">Civil Engineering & Building Construction</label>
+                    <input type="checkbox" name="Engineering Studies-NC(V)" id="Civil-Eng" value="Civil Engineering & Building Construction">
+                </td>
+            </tr>
+            <tr>
+                <!--Nated-->
+                <td><label for="Marketing-M">Marketing Management</label>
+                    <input type="checkbox" name="Business-Studies(N4-N6)" id="Marketing-M" value="Marketing Management">
+                </td>
+                <td>
+                    <label for="Cloth-Pro">Clothing Production</label>
+                    <input type="checkbox" name="Utitility-Studies(N1-N6)" id="Cloth-Pro" value="Clothing Production">
+                </td>
+                <td>
+                    <label for="Elect-Engineering">Electrical Engineering</label>
+                    <input type="checkbox" name="Engineering-Studies(N4-N6)" id="Elect-Engineering" value="Electrical Engineering">
+                </td>
+
+                <!--National Certificate-->
+                <td><label for="ManG">Management</label>
+                    <input type="checkbox" name="Business Studies-C(V)" id="ManG" value="Management">
+                </td>
+                <td><label for="Hospitality">Hospitality</label>
+                    <input type="checkbox" name="Utitility Studies-NC(V)" id="Hospitality" value="Hospitality" >
+                </td>
+                <td><label for="Engineering-Design">Engineering and Related Design</label>
+                    <input type="checkbox" name="Engineering Studies-NC(V)" id="Engineering-Design" value="Engineering and Related Design">
+                </td>
+            </tr>
+            <tr>
+                <!--Nated-->
+                <td><label for="Public-M">Public Management</label>
+                    <input type="checkbox" name="Business-Studies(N4-N6)" id="Public-M" value="Public Management">
+                </td>
+                <td><label for="Educare">Educare</label>
+                    <input type= "checkbox" name="Utitility-Studies(N1-N6)" value="Educare" id="Educare">
+                </td>
+                <td><label for="Mechanical-Engineering">Mechanical Engineering</label>
+                    <input type="checkbox" name="Engineering-Studies(N4-N6)" id="Mechanical-Engineering" value="Mechanical Engineering">
+                </td>
+
+                <!--National Certificate-->
+                <td><label for="Office-Admin">Office Administration</label>
+                    <input type="checkbox" name="Business Studies-C(V)" id="Office-Admin" value="Office Administration">
+                </td>
+                <td><label for="Primary-Health">Primary Health</label>
+                    <input type="checkbox" name="Utitility Studies-NC(V)" id="Primary-Health" value="Primary Health">
+                </td>
+                <td><label for="Mechatronics">Mechatronics</label>
+                    <input type="checkbox" name="Engineering Studies-NC(V)" id="Mechatronics" value="Mechatronics">
+                </td>
+            </tr>
+            <tr>
+                <!--Nated-->
+                <td><label for="HR">Human Resource Management</label>
+                    <input type="checkbox" name="Business-Studies(N4-N6)" id="HR" value="Human Resource Management" >
+                </td>
+                <td><label for="Hospitality-CTS">Hospitality and Catering Service</label>
+                    <input type="checkbox" name="Utitility-Studies(N1-N6)" id="Hospitality-CTS" value="Hospitality and Catering Service">
+                </td>
+                <td><label for="Civil-EngNV">Civil Engineering</label>
+                    <input type="checkbox" name="Engineering-Studies(N4-N6)" id="Civil-EngNV" value="Civil Engineering">
+                </td>
+
+                <!--National Certificate-->
+                <td><label for="FEA">Finance , Economics and Accounting</label>
+                    <input type="checkbox" name="Business Studies-C(V)" id="FEA" value="Finance , Economics and Accounting">
+                </td>
+                <td><label for="Safety">Safety in Society</label>
+                    <input type="checkbox" name="Utitility Studies-NC(V)" id="Safety" value="Safety in Society">
+                </td>
+                <td><label for="EIC">Electrical Infrastructure</label>
+                    <input type="checkbox" name="Engineering Studies-NC(V)" id="EIC" value="Electrical Infrastructure">
+                </td>
+            </tr>
+            <tr>
+                <!--Nated-->
+                <td><label for="Management-Assist">Management Assistance</label>
+                    <input type="checkbox" name="Business-Studies(N4-N6)" id="Management-Assist" value="Management Assistance">
+                </td>
+
+                <td><label for="PMSWP">Popular Music:(Composition, Studio Work and Performance)</label>
+                    <input type="checkbox" name="Utitility-Studies(N1-N6)" id="PMSWP" value="Popular Music:(Composition, Studio Work and Performance)">
+                </td>
+
+                <td><label for="MDDOP">Multy-Disciplinary Drawing Office Practice N4 & N5</label>
+                    <input type="checkbox" name= "Engineering-Studies(N4-N6)" id="MDDOP" value="Multy-Disciplinary Drawing Office Practice N4 & N5">
+                </td>
+
+                <!--National Certificate-->
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>
+                <td><label for="Tourism">Tourism</label>
+                    <input type="checkbox" name="Engineering Studies-NC(V)" id="Tourism">
+                </td>
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>
+            </tr>
+            <tr>
+                <!--Nated-->
+                <td><label for="fm">Financial Management</label>
+                    <input type="checkbox" name="Business-Studies(N4-N6)" id="fm" value="Financial Management">
+                </td>
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>                
+                <td><label for="Transport-Log">Transport and Logistics</label>
+                <input type="checkbox" name="Utitility Studies-NC(V)" id="Transport-Log" value="Utitility-Studies(N1-N6)">
+                </td>
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>
+
+            </tr>
+            <!--Nated-->
+            <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>                
+            <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>                
+            <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>    
+            
+            <!--National Certificate-->
+            <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>                              
+            <td><label for="Primary-Agriculture">Primary Agriculture</label>
+                <input type="checkbox" name="Utitility Studies-NC(V)" id="Primary-Agriculture" value="Primary Agriculture">
+            </td ><td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data-->
+            </td>
+            </tr>
+            <tr> <!--Nated-->
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>            
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data--></td>
+
+            <!--National Certificate-->        
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data-->
+                </td> 
+                <td><label for="ITCS">Information Technology and Computer Science</label>
+                <input type="checkbox" name="Utitility Studies-NC(V)" id="ITCS" value="Information Technology and Computer Science"></td>           
+                <td style="background-color: rgba(179, 179, 179, 0.801)"><!--No Data-->
+                </td>
+            </tr>
+            </table>
+            <h4>Contacts Details</h4>
+            <h5 style="color: rgba(105, 104, 104, 0.76)"><em>NO NEED TO ENTER ALL DETAILS JUST ENTER THE ONES RELEVANT TO YOU</em>
+            </h5>
+            <div class="contacts">
+                <label for="tel-h">Telephone Number :</label>
+                <input type="number" name="tel-h" id="tel-h" placeholder="Optional"> &nbsp&nbsp&nbsp&nbsp&nbsp
+                <label for="tel-w">Telephone Number(Guardian) :</label>
+                <input type="number" name="tel-w" id="tel-w" placeholder="Optional"><br><br>
+                <label for="cel-No">Cell-Phone :</label>
+                <input type="number" name="Mother-Cell" id="cel-No" placeholder="Mother">
+                <input type="number" name="Father-Cell" id="cel-No" placeholder="Father">
+                <input type="number" name="Student-Cell" id="cel-No" placeholder="Student"><br><br>
+                <label for="email">Email :</label>
+                <input type="email" name="email-student" id="email" required placeholder="Student(Required)">
+                <input type="email" name="email-parent" id="email-P" placeholder="Parent(Optional)">
+                <input type="email" name="email-relatives" id="email-R" placeholder="Other Relatives(Optional)"><br><br>
+                <label for="fax">Fax Number</label>
+                <input type="number" name="fax" id="fax">
+                <p>Preferred method of communication(Please select)</p>
+                <label for="e-mail">Email</label>
+                <input type="checkbox" name="Preferred Method of Communication" id="e-mail" value="Email">
+                <label for="Post">Post</label>
+                <input type="checkbox" name="Preferred Method of Communication" id="Post" value="Post">
+                <label for="Fax">Fax</label>
+                <input type="checkbox" name="Preferred Method of Communication" id="Fax" value="Fax">
+                <label for="Cell">Cell</label>
+                <input type="checkbox" name="Preferred Method of Communication" id="Cell" value="Cell"><br><br>
+                <label for="Physical-Address">Physical Address :</label><br>
+                <textarea name="Physical-Address" id="Physical-Address" cols="30" rows="10" placeholder="Start Typing"></textarea><br><input type="number" name="Physical-Address" id="postal-Physical-code" placeholder="Postal code"><br><br>
+                <label for="">Company/Parent/Guardian - Address</label><br>
+                <textarea name="Company/Parent/Guardian - Address" id="" cols="30" rows="10" placeholder="Start Typing"></textarea><br><input type="number" name="Company/Parent/Guardian - Address" id="C/P/G-Address-Code" placeholder="Postal Code">
+
+
+            </div>
+            <h4>Select Any Disabilities You May Have(Skip if you do not have any)</h4>
+            <div class="disability">
+                <label for="Blindness">Blindness</label>
+                <input type="checkbox" name="Disability" id="Blindness" value="Blindness"><br>
+                <label for="Deafness">Deafness</label>
+                <input type="checkbox" name="Disability" id="Deafness" value="Deaf"><br>
+                <label for="Deaf-b">Deaf-blindness</label>
+                <input type="checkbox" name="Disability" id="Deaf-b" value="Deaf-blindess"><br>
+                <label for="Partial sightedness/Low vision">Partial sightedness/Low vision</label>
+                <input type="checkbox" name="Disability" id="Partial sightedness/Low vision" value="Partial sightedness/Low vision"><br>
+                <label for="Hard of hearing">Hard of hearing</label>
+                <input type="checkbox" name="Disability" id="Hard of hearing" value="Hard of hearing"><br>
+                <label for="Cerebral Palsy">Cerebral Palsy</label>
+                <input type="checkbox" name="Disability" id="Cerebral Palsy" value="Cerebral Palsy"><br>
+                <label for="Autistics Spectrum disorders">Autistics Spectrum disorders</label>
+                <input type="checkbox" name="Disability" id="Autistics Spectrum disorders" value="Autistics Spectrum disorders"><br>
+                <label for="Psychiatric disorder">Psychiatric disorder </label>
+                <input type="checkbox" name="Disability" id="Psychiatric disorder" value="Psychiatric disorder"><br>
+                <label for="Epilepsy">Epilepsy</label>
+                <input type="checkbox" name="Disability" id="Epilepsy" value="Epilepsy"><br>
+                <label for="Phy-D"> Physical Disability</label>
+                <input type="checkbox" name="Disability" id="Phy-D" value="Physical Disability"><br>
+                <label for="Learning Deficiencies that needs to be supported">Learning Deficiencies that needs to be supported</label>
+                <input type="checkbox" name="Disability" id="Learning Deficiencies that needs to be supported" value="Learning Deficiencies that needs to be supported"><br>
+                <label for="Specific learning disability">Specific learning disability</label>
+                <input type="checkbox" name="Disability" id="Specific learning disability" value="Specific learning disability"><br>
+                <label for="Behavioural/conduct"> Behavioural / conduct disorder </label>
+                <input type="checkbox" name="Disability" id="Behavioural/conduct" value="Behavioural/conduct disorder"><br>
+                <label for="Attention to difficult disorders">Attention to difficult disorders</label>
+                <input type="checkbox" name="Disability" id="Attention to difficult disorders" value="Attention to difficult disorders"><br><br>
+                <br>
+                <label for="Dr.Certificate">Please Attach Dr Certificate</label>
+                <input type="file" name="Dr.Certificate" id="Dr.Certificate" accept=".pdf">
+
+            </div>
+            <h4>Additional Information</h4>
+            <div class="additional">
+                <label for="nsfas">NSFAS Student :</label>
+                <select name="nsfas" id="nsfas">
+                    <option value="Yes">YES</option>
+                    <option value="No">NO</option>
+                </select><br>
+                <label for="bursary-granted-before">I have been granted Government 
+                Bursary for my previous studies :</label>
+                <select name="bursary-granted-before" id="bursary-granted-before">
+                    <option value="No">NO</option>
+                    <option value="Yes">YES</option>
+                </select><br>
+                <label for="Previous-Studied-col/uni">I have previously studied within the college or any other Institution of higher learning :</label>
+                <select name="Previous-Studied-col/uni" id="Previous-Studied-col/uni">
+                    <option value="No">NO</option>
+                    <option value="Yes">YES</option>
+                </select>
+
+            </div>
+            <p>Declaration</p>
+            <div class="declaration">
+                <p>I hereby declare that the information above is accurate and correct and that should I, the applicant,  be accepted as a student, I will unconditionally adhere to the rules and regulations of this College. <br> I take note that I will occupy a high premium space, which 
+                    could easily have been allocated to another <br> deserving applicant  I undertake to utilize this space fully. <br> I commit to stay in the 
+                    programme for its total duration. </p>
+
+                <label for="agree">I accept the terms and conditions</label>
+                <input type="checkbox" name="agree" id="agree" value="Signed" required>
+
+            </div>
+            <br><br> 
+
+            <button type="submit" id = "send">SEND</button>
+        </form>
+    </div>
+    </main>
+
+    <footer align = "center">
+        <h2>Contacts</h2>
+        <a href="tel:+#" class ="tel-icon"><i id="tel" class="fa-solid fa-phone"></i> 0745xx90x78</a><br>
+        <a href="mailto:abc@gmail.com" class="gmail"><i  class="fa-solid fa-envelope"></i> abc@gmail.com</a>
+        
+        <h2>@ALL RIGHTS RESERVED</h2>
+
+    </footer>
+    <!--THIS IS NOT A REAL APPLICATION FORM THIS IS A WAY FOR ME TO TEST OUT FORMS IN HTML , THIS FORM SHALL NOT BE USED FOR ANY OTHER REASON OTHER THAN INSPECTING THE SOURCE CODE-->
+    <!--ALL RIGHTS RESERVED-->
+</body>
+</html>
